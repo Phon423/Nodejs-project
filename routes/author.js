@@ -43,7 +43,7 @@ router.post('/', async (req, res) => {
   }
 })
 
-//
+// Author ID
 router.get('/:id', async (req, res) => {
   try {
     const author = await Author.findById(req.params.id)
@@ -96,7 +96,14 @@ router.delete('/:id', async (req, res) => {
     res.redirect('/authors')
   } catch {
     if (author == null) res.redirect('/')
-    else  res.redirect(`/authors/${author.id}`)
+    else {
+      const authors = await Author.find({})
+      res.render('authors/index', {
+        authors: authors,
+        searchOptions: {},
+        errorMessage: 'Error Deleting Author With Written Books'
+      })
+    }  
   }
 })
 
