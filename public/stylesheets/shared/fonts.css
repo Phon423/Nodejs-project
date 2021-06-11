@@ -1,0 +1,39 @@
+@font-face {
+  font-family: "Baloo Tammudu 2";
+  src: url("BalooTammudu2-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Baloo Tammudu 2";
+  src: url("BalooTammudu2-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Baloo Tammudu 2";
+  src: url("BalooTammudu2-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Baloo Tammudu 2";
+  src: url("BalooTammudu2-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Baloo Tammudu 2";
+  src: url("BalooTammudu2-ExtraBold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
